@@ -14,7 +14,7 @@ from utils.utils import cvtColor, preprocess_input, resize_image
 class Unet(object):
     _defaults = {
         "model_path": 'MA-UNet/logs/ep200-loss0.098-val_loss0.153.pth',
-        "num_classes": 7,
+        "num_classes": 32,
         "input_shape": [256, 256],
         "blend": False,
         "cuda": True,
